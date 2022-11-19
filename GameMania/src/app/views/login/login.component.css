@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(229, 229, 229);
+    justify-content: center;
+    height: 100vh;
+
+}
+
+
+.box-login{
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    border-radius: 15px ;
+    border-left: 2px solid rgba(255, 255, 255, 0.5);
+    border-top:  2px solid rgba(255, 255, 255, 0.5);
+    /* border-right: 1px solid rgba(116, 116, 116, 0.5);
+    border-bottom: 1px solid rgba(116, 116, 116, 0.5); */
+    justify-content: center;
+    box-shadow: 20px 20px 50px rgb(0, 0, 0, 0.5)
+    
+    
+   
+}
+#campo-login
+{
+        border-top-width: 1px;
+        border-right-width: 1px;
+        border-bottom-width: 1px;
+        border-left-width: 1px;
+        border-top-style: none;
+        border-right-style: solid;
+        border-bottom-style: solid;
+        border-left-style: none;
+        background-color: transparent;
+        padding-top: 7px;
+        width: 100%;
+        text-align: center;
+        
+}
+.margem-box
+{
+    height: 100%;
+    width: 100%;
+    padding: 18px;
+    justify-content: center;
+}
+#style-login{
+    font-size: 19px;
+    font-family:sans-serif;
+    text-transform: uppercase;
+    text-shadow: 0.1em 0.1em 0.2em rgb(66, 65, 65)
+}
+#style-usuario{
+    font-size: 14px;
+    font-family: sans-serif;
+}
+#margem-usuario{
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+#campo-senha
+{
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-style: none;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: none;
+    background-color: transparent;
+    padding-top: 7px;
+    width: 100%;
+    text-align: center;
+}
+
+#style-password{
+    font-size: 14px;
+    font-family: sans-serif;
+}
+.margem-password{
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.forgot-pass a{
+   
+    font-size: 12px;
+    
+}
+.forgot-pass{
+    width: 100%;
+    text-align: right;
+}
+.forgot-user a{
+    font-size: 12px;
+}
+.forgot-user{
+    width: 100%;
+    text-align: right;
+}
+.game-mania{
+    width: 100%;
+    text-transform: uppercase;
+    justify-content: center;
+    text-align: center;
+    font-size: 12px;
+}
+.caixa{
+    width:300px;
+    height: 350px;
+    align-items: center;
+    
+}
+.navbar-brand
+{
+    background-color: rgb(39, 39, 39);
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    width: 100%;
+}
+#center
+{
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+}
+.navbar-left
+{
+margin-left: 150px;
+text-transform: uppercase;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 13px;
+display: flex;
+width: 10vw;
+}
+.navbar-right
+{
+   display: flex;
+   align-items: center;
+   margin-right: 150px;
+   justify-content: space-between;
+   width: 30vw;
+}
+.language
+{
+  margin-left: 8px;
+}
+.selector
+{
+    margin-left: 8px;
+}
+.selector a {
+    background-color: none;
+    color: inherit;
+}
+
+.home a
+{
+text-decoration:none;
+color: inherit;
+text-transform: uppercase;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 13px;
+background-color: none;
+}
+.busca
+{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-transform: uppercase;
+    display: flex;
+    
+}
+.lupa
+{
+    width: 30px;
+    color: inherit;
+    
+    
+}
+.lupa a{
+    color: inherit;
+}
